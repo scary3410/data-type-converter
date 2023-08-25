@@ -1,0 +1,167 @@
+body{
+    color: azure;
+}
+h1{
+    color: black;
+    align-self: center;
+    text-align: center;
+    font-size:  70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.input{
+width: 650px;
+margin-left: 50px;
+display:inline-block;
+height: 45px;
+background-color: #fff;
+border: 2px solid whitesmoke;
+
+}
+.to{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: grey;
+    margin-left: 40px;
+    text-size-adjust : 100%;
+    display: inline-block;
+}
+.outdiv{
+    display: inline-block;
+}
+
+.indiv{
+    display: inline-block;
+}
+
+.button{
+    background: transparent !important;
+    
+}
+.button-hex,
+.button-bin{
+   display: block;
+   margin-block-start: 40px;
+   width: 300px;
+   height: 50px;
+   
+   margin-bottom: 45px;
+   
+
+}
+.button-oct{
+    display: block;
+    width: 100px;
+    margin-bottom: 30px;
+    width: 300px;
+    height: 50px;
+    margin:left;
+    
+}
+
+.dectype{
+    display: inline-block;
+    border-radius: 50%;
+    margin-left:100px;
+}
+.hextype{
+    display: inline-block;
+    margin-left: 40px;
+    vertical-align: top;
+    margin-top: 40px;
+    border-radius: 50%;
+}
+
+
+.button-bin2
+{
+    display: block;
+    width: 100px;
+    margin-bottom: 30px;
+    width: 300px;
+    height: 50px;
+    margin-bottom: 45px;
+}
+
+.button-oct2{
+    display: block;
+    width: 100px;
+    margin-bottom: 30px;
+    width: 300px;
+    height: 50px;
+    margin:left;
+}
+.button-dec2{
+    display: block;
+    width: 100px;
+    margin-bottom: 30px;
+    width: 300px;
+    height: 50px;
+    margin-bottom: 45px;
+}
+
+.octtype{
+    display: inline-block;
+    margin-left: 40px;
+    vertical-align: top;
+    margin-top: 40px;
+    border-radius: 50%;
+}
+
+.button-dec3{
+    display: block;
+    width: 100px;
+    width: 300px;
+    height: 50px;
+    margin-bottom: 45px;
+}
+
+.button-bin3{
+    display: block;
+    width: 100px;
+    margin-bottom: 30px;
+    width: 300px;
+    margin-bottom: 45px;
+    height: 50px;
+}
+
+.button-hex3{
+    display: block;
+    width: 100px;
+    margin-bottom: 30px;
+    width: 300px;
+    height: 50px;
+}
+
+.bintype{
+    display: inline-block;
+    margin-left: 40px;
+    vertical-align: top;
+    margin-top: 40px;
+    border-radius: 50%;
+}
+
+.button-dec4{
+    display: block;
+    width: 100px;
+    width: 300px;
+    height: 50px;
+    margin-bottom: 45px;
+}
+
+.button-oct4{
+    
+    display: block;
+    width: 100px;
+    width: 300px;
+    height: 50px;
+    margin-bottom: 45px;
+}
+
+.button-hex4{
+    display: block;
+    width: 100px;
+    width: 300px;
+    height: 50px;
+    margin-bottom: 45px;
+}
+
+

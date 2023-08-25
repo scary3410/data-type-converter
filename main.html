@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Converter</title>
+</head>
+<h1>Data type Converter</h1>
+
+<p2></p2>
+<body>
+    <div class="indiv">
+    <input type="text" id="x" name="x"  required="" autofocus="" placeholder="  Enter here" class="input" oninput="dec2hex(this.value);" onchange="dec2hex(this.value);">
+    
+    
+    <p class="to">To</p>
+   
+        <input type="text" id="x" name="x"  required="" autofocus="" placeholder="  Enter here" class="input">
+        </div>
+        
+<div class="dectype">
+<button class="button-hex">
+    Decimal to Hexadecimal
+</button >
+<button 
+class="button-bin">Decimal to Binary
+</button >
+<button
+class="button-oct">Decimal to Octal
+</button >
+</div>
+
+<div class="hextype"> 
+    <button class="button-dec2">
+    Hexadecimal to Decimal
+</button >
+<button class="button-bin2">
+    Hexadecimal to Binary
+</button >
+<button class="button-oct2">
+    Hexadecimal to Octal
+</button >
+</div>
+
+<div class="octtype">
+    <button class="button-dec3">
+    Octal to Decimal
+    </button>
+    <button class="button-bin3">
+    Octal to Binary
+    </button>
+    <button class="button-hex3">
+    Octal to Hexadecimal
+    </button>
+</div>
+
+<div class="bintype">
+    <button class="button-dec4">
+        Binary to Decimal
+        </button>
+    <button class="button-oct4">
+        Binary to Octal
+        </button>
+    <button class="button-hex4">
+        Binary to Hexadecimal
+        </button>
+    </div>
+
+    <script>
+        function dec2hex(dec) {
+    return dec.toString(16);
+}
+
+
+
+    </script>
+</body>
+</html>
